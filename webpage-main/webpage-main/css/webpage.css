@@ -1,0 +1,11 @@
+p {color:red;}
+.black{ 
+    background-color:black;
+}
+.main_content{
+    background-color:aquamarine;
+}
+a{
+    color:blueviolet;
+    display:block;
+}

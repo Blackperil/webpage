@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="width=device-width" initial-scale="1.0" >
+        <link rel="stylesheet" href="css/3rdpage.css">
+        <script type="text/javascript">
+            var isPlaying = false;
+            function autoplay(){
+                if (isPlaying) {
+                    return;
+                }
+                isPlaying = true;
+                document.getElementById("audio").play();
+            }
+         </script>
+    </head>
+
+    <body onclick="autoplay()">
+        <div class="gridcontainer">
+        <div class="header">
+             <h1> 
+                <i>third page</i>
+             </h1>
+             
+            </div>
+        <div class="left sidenav">
+            <a href="lilith.html"> home</a>
+            <a href="2ndpage.html">2nd page</a>
+            <a href="4thpage.html">4th page</a>
+
+        </div>
+        <div class="main-content">
+            <audio id="audio">
+                <source src="winter_paradise.mp3" type="audio/mpeg">
+              </audio>              
+        </div>
+        <div class="right sidenav">
+        </div>
+        <div class="footer">
+        </div>
+    </div>
+    </body>
+
+    </html>

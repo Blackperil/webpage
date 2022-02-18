@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="width=device-width" initial-scale="1.0" >
+        <link rel="stylesheet" href="css/2ndpage.css">
+        <script type="text/javascript">
+            var isPlaying = false;
+            function autoplay(){
+                if (isPlaying) {
+                    return;
+                }
+                isPlaying = true;
+                document.getElementById("audio").play();
+            }
+         </script>
+    </head>
+
+    <body onclick="autoplay()">
+        <div class="gridcontainer">
+        <div class="header">
+             <h1> 
+                <i>second page</i>
+             </h1>
+             <h3>
+                <a  href="https://www.discovery.com/shark-week" target="_blank">shark week</a>
+             </h3>
+            
+            </div>
+        <div class="left sidenav">
+            <a href="lilith.html"> home</a>
+            <a href="3rdpage.html">3rd page</a>
+            <a href="4thpage.html">4th page</a>
+
+        </div>
+        <div class="main-content">
+            <audio id="audio">
+                <source src="winter_paradise.mp3" type="audio/mpeg">
+              </audio>              
+        <div class="card">
+              <img src="greatwhite2.jfif">
+                 
+              <p>
+                The great white shark (Carcharodon carcharias), also known as the white shark, white pointer, or simply great white, is a species of large mackerel shark which can be found in the coastal surface waters of all the major oceans.
+              </p>
+                 <button>
+                  great white
+                 </button>
+                 
+          </div>
+          <div class="card">
+              <img src="hammerhead.jfif">
+            <p>There are several species of hammerhead sharks, which are in the family Sphyrnidae. These species include the winghead, mallethead, scalloped hammerhead, scoophead, great hammerhead, and bonnethead sharks. Their oddly-shaped heads give them a wide visual range, which aids their hunting. These sharks inhabit tropical and warm temperate oceans around the world.</p>
+            <button>
+                hammer head
+            </button>
+          </div>
+          <div class="card">
+              <img src="bambooshark.jpg">
+              <p>
+                 Brownbanded bamboo sharks are known as "cat sharks" because the nasal barbels near their mouth look like cat     whiskers.
+                 These are actually sensory organs that help them to locate food.
+                 Juvenile sharks are marked with dark bands across the body and scattered dark spots.
+                  Adults are light brown with very faint or no banding visible. These sharks have long slender bodies with two spineless dorsal fins of equal size.
+                 They can grow to about three feet long.
+              </p> 
+              <button>
+                  bamboo shark
+              </button>
+            </div>
+        </div>
+        <div class="right sidenav">
+        </div>
+        <div class="footer">
+        </div>
+    </div>
+    </body>
+
+    </html>
